@@ -41,6 +41,18 @@ After importing the project, the correct level should open automatically. If it 
 
 To access the flythrough sequence and screenshot cameras, simply drag and drop the **SponzaCinematics** level into the **Levels** window after following the steps above.
 
+## Troubleshooting
+
+### LIGHTING NEEDS TO BE REBUILT message in the viewport
+1. In the top menu bar, navigate to **Build > GPU Lightmass**.
+2. In the window that opens, uncheck the **Viewport Realtime is ON** checkmark. This will speed up the baking process.
+3. Click on the green **Build Lighting** button.
+You can also build the lighting using the old CPU Lightmass, though keep in mind that the results will not be the same.
+
+### REFLECTION CAPTURES NEED TO BE REBUILT message in the viewport
+1. In the top menu bar, navigate to **Build > Build Reflection Captures**.
+2. Wait for the process to complete.
+
 ## Credits
 
 - Sponza model authored by Frank Meinl at [Crytek](https://www.crytek.com/).
